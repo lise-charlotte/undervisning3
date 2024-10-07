@@ -1,0 +1,40 @@
+/* CSS Selector*/
+body {
+    /*CSS Rule*/
+    margin: 0; 
+    /* margin kan være automatisk puttet inn i nettside koden, med å ta den ned til 0 så modifiserer vi koden nettsiden har lagt inn */
+}
+
+header {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding-inline: 10px;
+}
+
+section {
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.homeSection {
+    background-color: lightsalmon;
+}
+
+.aboutSection {
+    background-color: lightgreen;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
